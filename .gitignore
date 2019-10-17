@@ -106,7 +106,7 @@ output.json
 .mtj.tmp/
 
 #exclude files
-!neuro-sdk/libs/libStreamSDK.jar
+!/neuro-sdk/libs/libStreamSDK.jar
 
 # Package Files #
 *.jar
