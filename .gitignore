@@ -105,6 +105,9 @@ output.json
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
+#exclude files
+!neuro-sdk/libs/libStreamSDK.jar
+
 # Package Files #
 *.jar
 *.war
