@@ -105,9 +105,6 @@ output.json
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
-#exclude files
-!/neuro-sdk/libs/libStreamSDK.jar
-
 # Package Files #
 *.jar
 *.war
@@ -285,5 +282,8 @@ fabric.properties
 ### AndroidStudio Patch ###
 
 !/gradle/wrapper/gradle-wrapper.jar
+
+#exclude files
+!/neuro-sdk/libs/libStreamSDK.jar
 
 # End of https://www.gitignore.io/api/java,linux,macos,windows,android,androidstudio
