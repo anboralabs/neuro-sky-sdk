@@ -7,7 +7,7 @@ import co.anbora.neurosdk.data.BrainData;
  */
 public class RawDataProcessor implements INeuralWaveProcessor {
 
-    private short raw_data[] = {0};
+    private short []raw_data = new short[512];
     private int raw_data_index= 0;
     private WaveCallback callback;
 
